@@ -1,0 +1,20 @@
+# This is Git's per-user configuration file.
+[user]
+name = varant
+email = varantarabian@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+    hash = rev-parse --short HEAD
+    list = log --reflog
+    undo = reset HEAD~
+    update-fork = pull upstream master
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
