@@ -2,35 +2,35 @@
 
 My dev environment configuration setup and files.
 
+## Terminal
+
+On macOS I like to use [iTerm2](https://iterm2.com/) instead of Terminal.
 
 ### install zsh
+on ubuntu or debian
 ```bash
 sudo apt install zsh
 ```
-
 
 ### install [tmux](https://github.com/tmux/tmux/wiki)
 on ubuntu or debian
 ```bash
 sudo apt install tmux
 ```
-on macos
+on macOS
 ```bash
 brew install tmux
 ```
-
 
 ### install [ohmyzsh](https://ohmyz.sh/#install)
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-
 ### install [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
-
 
 ### install [zsh-syntax-highlighting plugin](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) plugin
 Clone this repository in oh-my-zsh's plugins directory:
@@ -38,23 +38,25 @@ Clone this repository in oh-my-zsh's plugins directory:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-
 ### install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) plugin
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-
 
 ### restart zsh
 ```bash
 source ~/.zshrc
 ```
 
+## Vim
 
 ### get [onedark.vim](https://github.com/joshdick/onedark.vim) vim color scheme
 
 
+## VSCode
+
 ### install vscode extensions
+
 ```
 code --install-extension esbenp.prettier-vscode
 code --install-extension ms-azuretools.vscode-docker
