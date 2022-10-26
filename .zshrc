@@ -122,8 +122,6 @@ alias t='tar zxvf'
 
 # alias open='xdg-open'
 
-alias cl='clear'
-
 # alias copy='xclip -selection c <'
 # alias paste='xclip -selection c -o >'
 alias copy='pbcopy <'
@@ -134,15 +132,10 @@ alias path='echo -e ${PATH//:/\\n}'
 listn() { ls -U "$1" | head -"$2" }
 count() { ls -1q "$1" | wc -l }
 
-alias py='/usr/local/bin/python3'
-
-alias chrome='open /Applications/Google\ Chrome.app'
-
 ### scripts
-alias google='zsh ~/scripts/google.sh'
-alias snek='python3 ~/scripts/snek.py'
-alias dbz='python3 ~/scripts/dbz.py'
-alias glidergun='python3 ~/Desktop/game-of-life/life.py'
+# alias snek='python3 ~/scripts/snek.py'
+# alias dbz='python3 ~/scripts/dbz.py'
+# alias glidergun='python3 ~/Desktop/game-of-life/life.py'
 
 ########################
 
