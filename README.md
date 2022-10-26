@@ -4,7 +4,15 @@ My dev environment configuration setup and files.
 
 ## Terminal
 
-On macOS I like to use [iTerm2](https://iterm2.com/) instead of Terminal.
+### macOS only
+
+Install [Homebrew](https://docs.brew.sh/Installation)
+
+Install [iTerm2](https://iterm2.com/)
+
+```
+brew install --cask iterm2
+```
 
 ### install zsh
 on ubuntu or debian
