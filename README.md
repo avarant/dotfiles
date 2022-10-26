@@ -14,6 +14,13 @@ Install [iTerm2](https://iterm2.com/)
 brew install --cask iterm2
 ```
 
+### install neovim
+
+on macOS
+```bash
+brew install neovim
+```
+
 ### install zsh
 on ubuntu or debian
 ```bash
