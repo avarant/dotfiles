@@ -115,3 +115,9 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") --  go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 ```
+
+- y + s + motion + char: add char before and after motion
+- d + s + char: remove char before and after motion
+- c + s + char: replace char before and after motion
+- y + motion: yank
+- g + r + motion: replace motion with clipboard
