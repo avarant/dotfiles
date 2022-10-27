@@ -116,7 +116,7 @@ alias ~='cd ~'
 alias ll='ls -AlFG'
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
 
-alias v='vim'
+alias v='nvim'
 alias d='du -hc'
 alias t='tar zxvf'
 
