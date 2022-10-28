@@ -16,6 +16,8 @@ if not typescript_setup then
 	return
 end
 
+require("lspconfig").pyright.setup({})
+
 local keymap = vim.keymap -- for conciseness
 
 -- enable keybinds only for when lsp server available
