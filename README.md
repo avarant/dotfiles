@@ -2,10 +2,6 @@
 
 My dev environment configuration setup and files.
 
-- [Terminal](##Terminal)
-- [VSCode](##VSCode)
-- [Neovim](##Neovim)
-
 ## Terminal
 
 ### macOS only
@@ -110,13 +106,12 @@ Followed https://github.com/josean-dev/dev-environment-files
 
 Then installed a [python language server](https://github.com/neovim/nvim-lspconfig#quickstart)
 
-1. Install a language server, e.g. pyright
+On Ubuntu
 
-`npm i -g pyright`
-
-2. Add the language server setup to your init.lua.
-
-`require'lspconfig'.pyright.setup{}`
+```
+sudo apt-get install nvim
+npm i -g tree-sitter cli
+```
 
 ### Keymaps
 
