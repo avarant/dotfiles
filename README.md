@@ -157,3 +157,7 @@ Then installed a [python language server](https://github.com/neovim/nvim-lspconf
 | leader gfc            | list git commits for current file/buffer (use <cr> to checkout) ["gfc" for git file commits] |
 | leader gb             | list git branches (use <cr> to checkout) ["gb" for git branch]                               |
 | leader gs             | list current changes per file with diff preview ["gs" for git status]                        |
+| m char                | set mark at location                                                                         |
+| ` char                | go to mark location                                                                          |
+| ' char                | go to the beginning of the line containing the char mark                                     |
+| y ` mark              | yank from current cursor location to mark location                                           |
