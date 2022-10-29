@@ -119,10 +119,10 @@ return packer.startup(function(use)
 		ft = { "markdown" },
 	})
 
-	-- use({
-	-- 	"romgrk/barbar.nvim",
-	-- 	requires = { "kyazdani42/nvim-web-devicons" },
-	-- })
+	use({
+		"romgrk/barbar.nvim",
+		requires = { "kyazdani42/nvim-web-devicons" },
+	})
 
 	if packer_bootstrap then
 		require("packer").sync()
