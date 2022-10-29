@@ -26,10 +26,11 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
-keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
+-- keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
 -- keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 -- keymap.set("n", "<leader>tn", ":tabn<CR>") --  go to next tab
 -- keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
+keymap.set("n", "<leader>to", ":enew<CR>") -- open new tab
 
 ----------------------
 -- Plugin Keybinds
@@ -61,19 +62,19 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 -- barbar
 ----------------------
 
--- local map = vim.api.nvim_set_keymap
--- local opts = { noremap = true, silent = true }
-
+-- -- local map = vim.api.nvim_set_keymap
+-- -- local opts = { noremap = true, silent = true }
+--
 -- Move to previous/next
-keymap.set("n", "<leader>tn", "<Cmd>BufferPrevious<CR>")
-keymap.set("n", "<leader>tp", "<Cmd>BufferNext<CR>")
+keymap.set("n", "<leader>tp", "<Cmd>BufferPrevious<CR>")
+keymap.set("n", "<leader>tn", "<Cmd>BufferNext<CR>")
 -- Re-order to previous/next
 -- keymap.set("n", "<A-<>", "<Cmd>BufferMovePrevious<CR>")
 -- keymap.set("n", "<A->>", "<Cmd>BufferMoveNext<CR>")
 -- Goto buffer in position...
 keymap.set("n", "<leader>1", "<Cmd>BufferGoto 1<CR>")
 keymap.set("n", "<leader>2", "<Cmd>BufferGoto 2<CR>")
-keymap.set("n", "<leade>3", "<Cmd>BufferGoto 3<CR>")
+keymap.set("n", "<leader>3", "<Cmd>BufferGoto 3<CR>")
 keymap.set("n", "<leader>4", "<Cmd>BufferGoto 4<CR>")
 keymap.set("n", "<leader>5", "<Cmd>BufferGoto 5<CR>")
 keymap.set("n", "<leader>6", "<Cmd>BufferGoto 6<CR>")

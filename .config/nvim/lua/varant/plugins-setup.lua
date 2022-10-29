@@ -124,6 +124,9 @@ return packer.startup(function(use)
 		requires = { "kyazdani42/nvim-web-devicons" },
 	})
 
+	-- -- using packer.nvim
+	-- use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "kyazdani42/nvim-web-devicons" })
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
