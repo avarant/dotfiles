@@ -33,7 +33,16 @@ return packer.startup(function(use)
 
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
+	-- use({
+	-- 	"bluz71/vim-nightfly-guicolors",
+	-- 	setup = function()
+	-- 		vim.g.nightflyWinSeparator = 2
+	-- 	end,
+	-- }) -- preferred colorscheme
+
+	-- use("tomasiser/vim-code-dark")
+
+	use("Mofiqul/vscode.nvim")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
@@ -98,6 +107,22 @@ return packer.startup(function(use)
 
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
+
+	-- markdown viewer
+	-- install without yarn or npm
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = "cd app && npm install",
+		setup = function()
+			vim.g.mkdp_filetypes = { "markdown" }
+		end,
+		ft = { "markdown" },
+	})
+
+	-- use({
+	-- 	"romgrk/barbar.nvim",
+	-- 	requires = { "kyazdani42/nvim-web-devicons" },
+	-- })
 
 	if packer_bootstrap then
 		require("packer").sync()
