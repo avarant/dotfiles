@@ -6,3 +6,5 @@ set hlsearch
 set mouse=a
 :imap jj <Esc>
 colorscheme onedark
+filetype plugin indent on
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
