@@ -79,12 +79,19 @@ source ~/.zshrc
 ## Homebrew packages
 
 terraform: Terraform
+
 neovim: Ambitious Vim-fork focused on extensibility and agility
+
 postgresql@12: Object-relational database system
+
 pyenv: Python version management
+
 rbenv: Ruby version manager
+
 rust: Safe, concurrent, practical language
+
 tmux: Terminal multiplexer
+
 xz: General-purpose data compression with high compression ratio
 
 ## Vim
