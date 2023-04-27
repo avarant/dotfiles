@@ -95,8 +95,9 @@ xz: General-purpose data compression with high compression ratio
 ### install vscode extensions
 
 ```
-code --install-extension asvetliakov.vscode-neovim
-code --install-extension esbenp.prettier-vscode
+code --install-extension GitHub.copilot
+code --install-extension hashicorp.terraform
+code --install-extension mechatroner.rainbow-csv
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
@@ -105,7 +106,9 @@ code --install-extension ms-toolsai.jupyter-keymap
 code --install-extension ms-toolsai.jupyter-renderers
 code --install-extension ms-toolsai.vscode-jupyter-cell-tags
 code --install-extension ms-toolsai.vscode-jupyter-slideshow
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode.makefile-tools
 code --install-extension redhat.vscode-yaml
 code --install-extension vscode-icons-team.vscode-icons
-code --install-extension zhuangtongfa.material-theme
+code --install-extension vscodevim.vim
 ```
