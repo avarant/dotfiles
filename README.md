@@ -1,40 +1,38 @@
-# My Dev Environment Files 🚀
+# dotfiles
 
-My dev environment configuration setup and files.
+My dev environment setup and configuration files.
 
-## Terminal
+## MacOS
 
-### macOS only
+Install [Homebrew](https://brew.sh/)
 
-Install [Homebrew](https://docs.brew.sh/Installation)
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 Install [iTerm2](https://iterm2.com/)
 
-```
+```bash
 brew install --cask iterm2
 ```
 
-### install zsh
+Install [Docker](https://docs.docker.com/desktop/install/mac-install/)
 
-on ubuntu or debian
-
-```bash
-sudo apt install zsh
-```
-
-### install [tmux](https://github.com/tmux/tmux/wiki)
-
-on ubuntu or debian
+Install packages
 
 ```bash
-sudo apt install tmux
+brew install tmux pyenv rbenv nvm rust xz postgresql@12
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
 ```
 
-on macOS
+## Ubuntu
 
 ```bash
-brew install tmux
+sudo apt install zsh tmux
 ```
+
+## Terminal Configuration
 
 ### install [ohmyzsh](https://ohmyz.sh/#install)
 
@@ -68,31 +66,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 source ~/.zshrc
 ```
 
-## Homebrew packages
-
-terraform: Terraform
-
-neovim: Ambitious Vim-fork focused on extensibility and agility
-
-postgresql@12: Object-relational database system
-
-pyenv: Python version management
-
-rbenv: Ruby version manager
-
-rust: Safe, concurrent, practical language
-
-tmux: Terminal multiplexer
-
-xz: General-purpose data compression with high compression ratio
-
 ## Vim
 
 ### get [onedark.vim](https://github.com/joshdick/onedark.vim) vim color scheme
 
 ## VSCode
 
-### install vscode extensions
+install vscode extensions
 
 ```
 code --install-extension GitHub.copilot
