@@ -22,6 +22,20 @@ Install packages
 
 ```bash
 brew install tmux pyenv rbenv nvm rust xz postgresql@12
+```
+
+Install python 3.11.2 and set it to global
+
+```bash
+pyenv install 3.11.2
+pyenv global 3.11.2
+```
+
+Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+Install [Terraform](https://www.terraform.io/)
+
+```bash
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 ```
@@ -34,19 +48,19 @@ sudo apt install zsh tmux
 
 ## Terminal Configuration
 
-### install [ohmyzsh](https://ohmyz.sh/#install)
+install [ohmyzsh](https://ohmyz.sh/#install)
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### install [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
+install [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-### install [zsh-syntax-highlighting plugin](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) plugin
+install [zsh-syntax-highlighting plugin](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) plugin
 
 Clone this repository in oh-my-zsh's plugins directory:
 
@@ -54,13 +68,13 @@ Clone this repository in oh-my-zsh's plugins directory:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-### install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) plugin
+install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) plugin
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-### restart zsh
+restart zsh
 
 ```bash
 source ~/.zshrc
@@ -68,7 +82,9 @@ source ~/.zshrc
 
 ## Vim
 
-### get [onedark.vim](https://github.com/joshdick/onedark.vim) vim color scheme
+get [onedark.vim](https://github.com/joshdick/onedark.vim) vim color scheme
+
+create `~/.vimrc`
 
 ## VSCode
 
