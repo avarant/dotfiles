@@ -46,6 +46,12 @@ brew install hashicorp/tap/terraform
 sudo apt install zsh tmux
 ```
 
+Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
+
+Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+Install [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
 ## Terminal Configuration
 
 install [ohmyzsh](https://ohmyz.sh/#install)
