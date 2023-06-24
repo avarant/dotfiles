@@ -52,6 +52,30 @@ Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-start
 
 Install [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
+### Setup SSH
+
+```bash
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl start ssh
+sudo systemctl enable ssh
+ip a
+```
+
+Generate a key pair
+```
+ssh-keygen
+```
+
+Copy the public key onto Ubuntu
+
+```bash
+cat ~/id_rsa.pub >> ~/.ssh/authorized_keys
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+sudo systemctl restart ssh
+```
+
 ## Terminal Configuration
 
 install [ohmyzsh](https://ohmyz.sh/#install)
