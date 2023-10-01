@@ -16,6 +16,8 @@ Install [iTerm2](https://iterm2.com/)
 brew install --cask iterm2
 ```
 
+(Optional) get (Catppuccin theme)[https://github.com/catppuccin/iterm]
+
 Install [Docker](https://docs.docker.com/desktop/install/mac-install/)
 
 Install packages
