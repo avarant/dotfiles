@@ -112,6 +112,17 @@ restart zsh
 source ~/.zshrc
 ```
 
+## Neovim
+
+My Neovim config lives in its own repo: [avarant/nvim](https://github.com/avarant/nvim) (NvChad v2.0 + custom).
+
+```bash
+mv ~/.config/nvim ~/.config/nvim.bak 2>/dev/null
+rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
+git clone https://github.com/avarant/nvim.git ~/.config/nvim
+nvim   # first launch installs plugins; then :MasonInstallAll
+```
+
 ## Vim
 
 get [onedark.vim](https://github.com/joshdick/onedark.vim) vim color scheme
