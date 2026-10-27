@@ -1,0 +1,4 @@
+theme = Catppuccin Mocha
+
+# Cmd+B -> tmux workspace sidebar (sends prefix + b)
+keybind = cmd+b=text:\x02b
